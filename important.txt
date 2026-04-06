@@ -1,0 +1,31 @@
+=== PROJET LOUAGE.TN ===
+
+STACK:
+- Frontend: React Native + Expo
+- Backend: Node.js + Express
+- Base de données: MongoDB Atlas
+
+CHEMINS:
+- App mobile: C:\Users\stiti\Documents\PlatformIO\louage01tn\louage-app
+- Backend: C:\Users\stiti\Documents\PlatformIO\louage01tn\backend
+
+MONGODB:
+- Cluster: cluster0.c7oif9k.mongodb.net
+- Base: louagetn
+
+PAGES CRÉÉES:
+- app/index.tsx (accueil)
+- app/(auth)/login.tsx
+- app/(auth)/register.tsx
+- app/(passenger)/home.tsx
+- app/(passenger)/booking.tsx
+- app/(driver)/home.tsx
+- app/(driver)/addTrip.tsx
+- components/LogoutButton.tsx
+- services/api.js
+
+FONCTIONNALITÉS RESTANTES:
+- Déconnexion (en cours)
+- Google Maps
+- Notifications
+- Système de notation
